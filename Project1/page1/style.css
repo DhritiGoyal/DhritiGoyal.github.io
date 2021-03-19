@@ -1,0 +1,30 @@
+
+
+        @font-face {
+            font-family: 'Breite Grotesk';
+            src: url('fonts/BreiteGrotesk-Light.woff2') format('woff2'),
+                url('BreiteGrotesk-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+body{
+    background-image: radial-gradient( blue,darkblue,black,black);
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    font-size:2rem;
+    font-family: 'Breite Grotesk';
+    src: url('fonts/BreiteGrotesk-Light.woff2') format('woff2'),;
+    text-align: center;
+    position: absolute;
+    margin:0;
+    padding:0;
+    top:15%;
+    left:50%;
+    transform:translateX(-50%);
+    }
+

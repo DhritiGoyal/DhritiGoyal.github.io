@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Relaate 0.6 Demo Serif';
+    src: url('Relaate06Demo-Serif.woff2') format('woff2'),
+        url('Relaate06Demo-Serif.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

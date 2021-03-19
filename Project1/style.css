@@ -1,0 +1,122 @@
+
+    @font-face {
+    font-family: 'Relaate 0.6 Demo Serif';
+    src: url('fonts/Relaate06Demo-Serif.woff2') format('woff2'),
+        url('fonts/Relaate06Demo-Serif.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: 'Pinyon Script';
+    src: url('fonts/PinyonScript.woff2') format('woff2'),
+        url('fonts/PinyonScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Breite Grotesk';
+        src: url('fonts/BreiteGrotesk-Light.woff2') format('woff2'),
+            url('BreiteGrotesk-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    
+
+    body{
+      background-color:black;
+    }
+
+   h1{
+    color:white;
+    font-size:300%;
+    font-family: 'Relaate 0.6 Demo Serif';
+    src: url('fonts/Relaate06Demo-Serif.woff2') format('woff2'),;
+    text-align: center;
+    position: relative;
+    margin:0;
+    padding:0;
+    top:0%;
+    left:50%;
+    transform:translateX(-50%);
+    }
+
+    h3{
+        color:white;
+        font-size: 90%;
+        font-family: 'Breite Grotesk';
+            src: url('fonts/BreiteGrotesk-Light.woff2') format('woff2'),;
+        text-align: center;
+        position: absolute;
+        margin:0;
+        padding:0;
+        top:90%;
+        left:50%;
+        transform:translateX(-50%);
+    
+       }
+    
+       img{
+        position: absolute;
+        margin:0;
+        padding:0;
+        top:28%;
+        left:50%;
+        width:20%;
+       height:40%;
+        transform:translateX(-50%);
+        }
+    
+      
+
+        @media only screen and (min-width: 366px) {
+            img {
+              width: 30%;
+              height:20%;
+              top:40%;
+              left:50%;
+            }
+
+            img:hover {
+                width:36%;
+                height:26%;
+                top:36%;
+                left:50%;
+                 }
+          }
+
+          @media only screen and (min-width: 735px) {
+            img {
+              width: 25%;
+              height:29%;
+              top:34%;
+              left:50%;
+            }
+            img:hover {
+                width:28%;
+                height:33%;
+                top:32%;
+                left:50%;
+                 }
+          }
+
+          @media only screen and (min-width: 1026px) {
+            img {
+              width: 27%;
+              height:41%;
+              top:29%;
+              left:50%;
+            }
+
+            img:hover {
+                width:32%;
+                height:46%;
+                top:27%;
+                left:50%;
+                 }
+          }
