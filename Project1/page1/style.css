@@ -28,3 +28,10 @@ h1{
     transform:translateX(-50%);
     }
 
+a{
+    color:white;
+}
+
+a:hover {
+    color:yellow;
+}
