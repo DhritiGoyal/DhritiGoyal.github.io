@@ -268,7 +268,7 @@ h1{
 
 h2{
     font-family: 'Sprat';
-    src: url('Sprat-RegularThin.woff2') format('woff2'),
+    src: url('Sprat-RegularThin.woff2') format('woff2'),;
     font-weight:normal;
     font-size:2.5rem;
     margin: 15px;
@@ -276,7 +276,7 @@ h2{
     
 }
 
-h4{
+h4,a{
     font-family: 'Sprat Condensed';
     src: url('Sprat-CondensedLight.woff2') format('woff2'),;
     font-weight:normal;
