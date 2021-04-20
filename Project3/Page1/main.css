@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'Ortica';
+    src: url('Ortica-Light.woff2') format('woff2'),
+        url('Ortica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Condensed';
+    src: url('Sprat-CondensedLight.woff2') format('woff2'),
+        url('Sprat-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Condensed';
+    src: url('Sprat-CondensedMedium.woff2') format('woff2'),
+        url('Sprat-CondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-ExtendedThin.woff2') format('woff2'),
+        url('Sprat-ExtendedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-Extendedregular.woff2') format('woff2'),
+        url('Sprat-Extendedregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Condensed';
+    src: url('Sprat-CondensedBlack.woff2') format('woff2'),
+        url('Sprat-CondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-ExtendedBold.woff2') format('woff2'),
+        url('Sprat-ExtendedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-ExtendedMedium.woff2') format('woff2'),
+        url('Sprat-ExtendedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Condensed';
+    src: url('Sprat-CondensedBold.woff2') format('woff2'),
+        url('Sprat-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat';
+    src: url('Sprat-RegularThin.woff2') format('woff2'),
+        url('Sprat-RegularThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat';
+    src: url('Sprat-Regular.woff2') format('woff2'),
+        url('Sprat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat';
+    src: url('Sprat-RegularBlack.woff2') format('woff2'),
+        url('Sprat-RegularBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat';
+    src: url('Sprat-Regularlight.woff2') format('woff2'),
+        url('Sprat-Regularlight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat';
+    src: url('Sprat-RegularBold.woff2') format('woff2'),
+        url('Sprat-RegularBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-ExtendedLight.woff2') format('woff2'),
+        url('Sprat-ExtendedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Condesed';
+    src: url('Sprat-CondesedRegular.woff2') format('woff2'),
+        url('Sprat-CondesedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Extended';
+    src: url('Sprat-ExtendedBlack.woff2') format('woff2'),
+        url('Sprat-ExtendedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat';
+    src: url('Sprat-RegularMedium.woff2') format('woff2'),
+        url('Sprat-RegularMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sprat Condensed';
+    src: url('Sprat-CondensedThin.woff2') format('woff2'),
+        url('Sprat-CondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-Light.woff2') format('woff2'),
+        url('HKGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-LightItalic.woff2') format('woff2'),
+        url('HKGrotesk-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-Italic.woff2') format('woff2'),
+        url('HKGrotesk-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-ExtraLightItalic.woff2') format('woff2'),
+        url('HKGrotesk-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-MediumItalic.woff2') format('woff2'),
+        url('HKGrotesk-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+    
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-Regular.woff2') format('woff2'),
+        url('HKGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-Medium.woff2') format('woff2'),
+        url('HKGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-SemiBoldItalic.woff2') format('woff2'),
+        url('HKGrotesk-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('HKGrotesk-SemiBold.woff2') format('woff2'),
+        url('HKGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+   background-color:black;
+}
+
+h1{
+    font-family: 'Sprat';
+    src: url('Sprat-RegularThin.woff2') format('woff2'),;
+    font-weight:normal;
+    color:white;
+    font-size:2rem;
+    margin: 0;
+}
+
+
+.photo-container {
+    padding:1rem;
+    border: 1px solid #ad41ff;
+    border-radius:25px;
+    display:grid;
+    grid-gap:2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo-image{
+    width:100%;
+    height:auto;
+    display:none;
+}
+
+.photo-image.active{
+    display: block;
+}
+
+img{
+    display:flex;
+    width:20%;
+    height: auto;
+    margin-left: 40%;
+}
