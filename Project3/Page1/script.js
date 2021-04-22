@@ -33,12 +33,12 @@ function gotAllPhotos(err) {
     return;
   }
 
-  // call functions to log and show the books
+  // call functions to log and show the photos
   consoleLogPhotos();
   showPhotos();
 }
 
-// just loop through the books and console.log them
+// just loop through the photos and console.log them
 function consoleLogPhotos() {
   console.log("consoleLogPhotos()");
   photos.forEach((photo) => {
@@ -65,13 +65,11 @@ function showPhotos() {
     // creating a new div container, this is where 
     var photoContainer = document.createElement("div");
     photoContainer.classList.add("photo-container");
+    photo.fields.Tags.forEach((tag) => {
+      photoContainer.classList.add(tag);
+    })
     document.querySelector(".container").append(photoContainer);
 
-    //add photo titles to our photo container
-    var photoTitle = document.createElement("h1");
-    photoTitle.classList.add("title");
-    photoTitle.innerText = photo.fields.title;
-    photoContainer.append(photoTitle);
 
    //add image to our photo container
    var photoImage = document.createElement("img");
@@ -79,15 +77,39 @@ function showPhotos() {
    photoImage.src = photo.fields.photo_image[0].url;
    photoContainer.append(photoImage);
 
+      //add photo titles to our photo container
+      var photoTitle = document.createElement("h1");
+      photoTitle.classList.add("title");
+      photoTitle.innerText = photo.fields.title;
+      photoContainer.append(photoTitle);
+
    //add event listener
    //when user clicks on photo container 
    // image and description will appear or disappear
    photoContainer.addEventListener("click", function(){
-     photoImage.classList.toggle("active");
+     photoTitle.classList.toggle("active");
    })
    
   });
+
+  var images = document.querySelectorAll("header img");
+  var photoContainers = document.querySelectorAll(".photo-container");
+  images.forEach((image) => {
+    image.addEventListener("click", function (event){
+      console.log(event.target.dataset.sense);
+      photoContainers.forEach((item) => {
+            if (item.classList.contains(event.target.dataset.sense)){
+              item.style.display = "block"
+            }
+            else {
+              item.style.display = "none"
+            }
+      })
+    })
+
+  })
 }
+
 
 
 /*
