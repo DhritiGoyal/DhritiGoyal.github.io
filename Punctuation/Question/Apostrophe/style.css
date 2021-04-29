@@ -89,7 +89,7 @@ p {
     text-align:center;
     margin-left: 15vw;
     margin-right: 15vw;
-    margin-top:100vh;
+    margin-top:20vh;
     padding: 1rem;
     color:black;
 }
@@ -118,3 +118,10 @@ p {
 }
 
 
+img{
+    width:20%;
+    height: auto;
+    margin-left: 40vw;
+    margin-right: 10vw;
+    margin-top:75vh;
+}
