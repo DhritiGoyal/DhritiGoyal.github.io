@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient( #ff5e00, #ff00b1, #ff0000);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+  }
+ h1{
+    font-size: 6rem;
+    color:blueviolet;
+    font-family:sans-serif;
+    padding:1rem;
+    text-align: center;
+}
+
+ h1:hover{
+ color:red;
+ }
+
+h2{
+ text-align: center;
+ font-size: 4rem;
+}
+
+  li{
+      text-align: left;
+      font-size: 2rem;
+      margin-left:25vw;
+      font-family:sans-serif;
+  }
+
+  a{
+    text-align: right;
+    font-size: 4rem;
+    margin-left:40vw;
+   }

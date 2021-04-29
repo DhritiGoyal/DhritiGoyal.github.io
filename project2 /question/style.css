@@ -1,0 +1,259 @@
+
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-black-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold_italic';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-italic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratsemibold_italic';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-semibolditalic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratthin';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratthin_italic';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h3{
+    font-size:1.4rem;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    color:black;
+    font-family: 'montserratlight';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-light-webfont.woff2') format('woff2'),
+}
+
+#main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-self: center;
+    font-size: 4rem;
+    color:white;
+}
+
+.circle1{
+    height: 75px;
+    width: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    padding:1.3rem;
+}
+
+.circle1:hover{
+    font-size:0px;
+}
+.circle1:hover:after{
+    content: attr(data-hover);
+    height: 75px;
+    width: 75px;
+    background-color:white;
+    border-radius: 50%;
+    padding:1.3rem;
+    color:black;
+    font-size: 4rem;
+    }
+
+.circle2{
+    height: 75px;
+    width: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    padding:1.3rem;
+}
+.circle2:hover{
+    font-size:0px;
+}
+.circle2:hover:after{
+    content: attr(data-hover);
+    height: 75px;
+    width: 75px;
+    background-color:white;
+    border-radius: 50%;
+    padding:1.3rem;
+    color:black;
+    font-size: 4rem;
+    }
+
+.circle3{
+    height: 75px;
+    width: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    padding:1.3rem;
+}
+.circle3:hover{
+    font-size:0px;
+}
+.circle3:hover:after{
+    content: attr(data-hover);
+    height: 75px;
+    width: 75px;
+    background-color:white;
+    border-radius: 50%;
+    padding:1.3rem;
+    color:black;
+    font-size: 4rem;
+    }
+
+.circle4{
+    height: 75px;
+    width: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    padding:1.3rem;
+}
+.circle4:hover{
+    font-size:0px;
+}
+.circle4:hover:after{
+    content: attr(data-hover);
+    height: 75px;
+    width: 75px;
+    background-color:white;
+    border-radius: 50%;
+    padding:1.3rem;
+    color:black;
+    font-size: 4rem;
+    }
+
+.circle5{
+    height: 75px;
+    width: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    padding:1.3rem;
+}
+.circle5:hover{
+    font-size:0px;
+}
+.circle5:hover:after{
+    content: attr(data-hover);
+    height: 75px;
+    width: 75px;
+    background-color:white;
+    border-radius: 50%;
+    padding:1.3rem;
+    color:black;
+    font-size: 4rem;
+    }
+
+  

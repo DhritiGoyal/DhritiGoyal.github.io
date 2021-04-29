@@ -1,0 +1,14 @@
+.red {
+    color: red;
+  }
+
+  .haiku, .haiku .line {
+    transition: all 3s ease-in-out;
+  }
+  .snowfall {
+    color: green;
+  }
+  .snowfall .line {
+    color: #ccc;
+    filter: blur(3px);
+  }

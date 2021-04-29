@@ -1,0 +1,302 @@
+body {
+    background-image: linear-gradient(#fba9c3, #f75ef2, #ff0000);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 265vh;
+  }
+  
+  @keyframes fly1 {
+    0% {
+      left: 40%;
+      top: 73%;
+    }
+    50% {
+      left: 7%;
+      top: 25%;
+    }
+    75% {
+      left: 20%;
+      top: 3%;
+    }
+    100% {
+      left: 40%;
+      top: 73%;
+    }
+  }
+  
+  @keyframes faded {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fly2 {
+    0% {
+      left: 13%;
+      top: 70%;
+    }
+    50% {
+      left: 83%;
+      top: 10%;
+    }
+    75% {
+      left: 30%;
+      top: 33%;
+    }
+    100% {
+      left: 13%;
+      top: 70%;
+    }
+  }
+  
+  @keyframes fly3 {
+    0% {
+      left: 69%;
+      top: 3%;
+    }
+    50% {
+      left: 40%;
+      top: 45%;
+    }
+    75% {
+      left: 10%;
+      top: 26%;
+    }
+    100% {
+      left: 69%;
+      top: 3%;
+    }
+  }
+  
+  @keyframes fly4 {
+    0% {
+      left: 22%;
+      top: 30%;
+    }
+    50% {
+      left: 70%;
+      top: 55%;
+    }
+    75% {
+      left: 49%;
+      top: 16%;
+    }
+    100% {
+      left: 22%;
+      top: 30%;
+    }
+  }
+  
+  @keyframes fly5 {
+    0% {
+      left: 62%;
+      top: 40%;
+    }
+    50% {
+      left: 10%;
+      top: 25%;
+    }
+    75% {
+      left: 45%;
+      top: 23%;
+    }
+    100% {
+      left: 62%;
+      top: 40%;
+    }
+  }
+  
+  .butterfly1 {
+    width: 170px;
+    position: absolute;
+    animation-name: faded;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .butterfly2 {
+    width: 170px;
+    position: absolute;
+    filter: blur(0.4px);
+    animation-name: faded;
+    animation-duration: 18s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .butterfly3 {
+    width: 170px;
+    position: absolute;
+    filter: blur(0.6px);
+    animation-name: faded;
+    animation-duration: 18s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .butterfly4 {
+    width: 170px;
+    position: absolute;
+    filter: blur(1px);
+    animation-name: faded;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .butterfly5 {
+    width: 170px;
+    position: absolute;
+    filter: blur(1px);
+    animation-name: faded;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .butterfly1:hover {
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  
+  .butterfly2:hover {
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  
+  .butterfly3:hover {
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  .butterfly4:hover {
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  .butterfly5:hover {
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  
+  .container1 {
+    left: 60%;
+    top: 69%;
+    position: relative;
+    width: max-content;
+    animation-name: fly1;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+  
+  .container2 {
+    left: 13%;
+    top: 89%;
+    position: relative;
+    width: max-content;
+    animation-name: fly2;
+    animation-duration: 18s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 3s, 4s;
+  }
+  
+  .container3 {
+    left: 89%;
+    top: 3%;
+    position: relative;
+    width: max-content;
+    animation-name: fly3;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 5s, 5s;
+  }
+  
+  .container4 {
+    left: 22%;
+    top: 40%;
+    position: relative;
+    width: max-content;
+    animation-name: fly4;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 6s, 7s;
+  }
+  
+  .container5 {
+    left: 22%;
+    top: 40%;
+    position: relative;
+    width: max-content;
+    animation-name: fly5;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .large-sparkle {
+    width: 90px;
+    height: 90px;
+    animation-duration: 4s;
+    animation-name: blink;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  .small-sparkle {
+    width: 30px;
+    height: 30px;
+    left: 90%;
+    animation-duration: 4s;
+    animation-name: blink;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+
+/* animation ends here */
+
+h1{
+font-size: 9rem;
+color:#0400f3;
+font-family:sans-serif;
+padding:1rem;
+}
+
+h3{
+    font-size: 5rem;
+    color:#0400f3;
+    font-family:sans-serif;
+    padding:1rem;
+ }
+    
+ span{
+     font-family:serif;
+ }

@@ -53,7 +53,7 @@ function showPhotos() {
   console.log("showPhotos()");
   photos.forEach((photo) => {
 
-
+    
     //var photoTitle = document.createElement("h1");
     //photoTitle.innerText = photo.fields.title;
     //document.body.append(photoTitle);
@@ -76,7 +76,7 @@ function showPhotos() {
    photoImage.classList.add("photo-image");
    photoImage.src = photo.fields.photo_image[0].url;
    photoContainer.append(photoImage);
-
+  
       //add photo titles to our photo container
       var photoTitle = document.createElement("h1");
       photoTitle.classList.add("title");
@@ -91,15 +91,16 @@ function showPhotos() {
    })
    
   });
-
+  console.log("test");
   var images = document.querySelectorAll("header img");
   var photoContainers = document.querySelectorAll(".photo-container");
   images.forEach((image) => {
     image.addEventListener("click", function (event){
+      document.querySelector("#senses").classList.add("hide")
       console.log(event.target.dataset.sense);
       photoContainers.forEach((item) => {
             if (item.classList.contains(event.target.dataset.sense)){
-              item.style.display = "block"
+              item.style.display = "inline-flex"
             }
             else {
               item.style.display = "none"
@@ -108,85 +109,20 @@ function showPhotos() {
     })
 
   })
-}
+  document.querySelector("#open-senses").addEventListener("click", function(){
+    document.querySelector("#senses").classList.remove("hide")
+  })
 
+  var cont = document.querySelector(".container");
+  cont.addEventListener("mousemove", function(){
+      if (Math.round(Math.random() * 5) == 1){
+        photoContainers.forEach(function (photo) {
+          photo.style.zIndex = 0;
+        })
+        photoContainers[Math.floor(photoContainers.length * Math.random())].style.zIndex = 1;
+        
+      }
 
-
-/*
-// elements of page
-let tagElement = document.querySelector('#tags');
-let photosElement = document.querySelector('#photos');
-
-
-
-function filterByTag(event) {
-  let allImages = document.querySelectorAll('.photos');
-  allImages.forEach(function (item) {
-    if (item.classList.contains(event.target.dataset.type)){
-      item.style.display = 'block';
-    } else {
-      item.style.display = 'none';
-    }
-  });
+  })
 
 }
-
-function showInfo(event) {
-  //show model
-  if (event.target.classList.contains('photos')){
-    infoDetails.innerHTML = `
-      <h1>${event.target.dataset.name}</h1>
-      <p>size: ${event.target.dataset.size}</p>
-    `;
-    infoElement.classList.add('show');
-  }
-}
-
-function closeInfo() {
- infoElement.classList.remove('show');
-}
-
-function displayPhotos() {
-console.log(photos);
-let addedTags = [];
-
-photos.forEach(function (item) {
-  //add our tags to the header
- item.fields.Tags.forEach(function (tag) {
-   if (!addedTags.includes(tag)) {
-    let ourTag = document.createElement('button');
-    ourTag.innerText = tag;
-    ourTag.dataset.type = tag;
-    ourTag.addEventListener('click', filterByTag);
-    tagElement.append(ourTag);
-    addedTags.push(tag);
-   }
- });
-
-  item.fields.photo_image.forEach(function (photo_image) {
-    let img = document.createElement('img');
-    img.src = photo_image.thumbnails.large.url;
-
-    img.style.left = `calc(${Math.random()} * (100% - 7.5rem))`;
-    img.style.top = `calc(${Math.random()} * (100% - 7.5rem))`;
-
-    //adding a unified class
-    img.classList.add('photos');
-
-    //adding our produce type tags
-    item.fields.Tags.forEach(function (tag) {
-      img.classList.add(tag);
-    });
-
-    //associate title
-    img.dataset.title = item.fields.title;
-
-    //associate the size
-    img.dataset.size = item.fields.Size;
-
-    photosElement.append(img);
-   
-  });
-});
-}
-*/
