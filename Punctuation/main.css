@@ -141,23 +141,6 @@ h5 {
  display:inline;
 }
 
-/* 
-p {
-    font-family: 'montserratthin';
-    src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
-    font-size:10rem;
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-    color:black;
-
-} */
-
-/* p:hover{
-    text-decoration: underline overline;
-} */
-
 .square1 {
     height:100vh;
     width:18vw;
@@ -176,6 +159,9 @@ p {
     border-style: solid;
     justify-content: center;
     align-items: center;
+    padding:3rem;
+    /* margin-left: 70%; */
+    text-decoration: none;
 }
 
 .Quest:hover{

@@ -66,6 +66,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
 h2 {
     font-family: 'montserratmedium';
     src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
@@ -84,7 +86,7 @@ p {
     font-family: 'montserratthin';
     src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
     font-size:3rem;
-    text-align:center;
+    text-align: center;
     margin-left: 15vw;
     margin-right: 15vw;
     margin-top:100vh;
@@ -92,24 +94,26 @@ p {
     color:black;
 }
 
-.end{
+.apostrophe{
     font-family: 'montserratthin';
     src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
-    font-size: 8rem;
-    text-align:center;
-    margin-left: 40vw;
-    margin-right: 40vw;
-    /* padding: 1rem; */
+    font-size: 10rem;
+    text-align: center;
+    margin-left: 44vw;
+    margin-right: 10vw;
+    padding: 3rem;
     color:black;
     border-style: solid;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
-.end:hover{
+.apostrophe:hover{
     color:white;
     background-color: black;
     border-radius: 90%;
     cursor: pointer;
     transition: 0.25s border-radius;
 }
+

@@ -67,6 +67,7 @@
     font-style: normal;
 }
 
+
 h2 {
     font-family: 'montserratmedium';
     src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
@@ -93,48 +94,27 @@ p {
     color:black;
 }
 
-/* p:hover{
-    text-decoration: underline overline;
-} */
-
-/* .square1 {
-    height:300vh;
-    width:30vw;
-    background-color:black;
-    position:absolute;
-    top:0;
-    left:0%;
-}
-
-.square2 {
-    height:300vh;
-    width:30vw;
-    background-color:black;
-    position:absolute;
-    top:0;
-    left: 70%;
-} */
-
-
-.Colon{
+.period{
     font-family: 'montserratthin';
-    src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
-    font-size: 10rem;
+    src:url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
+    font-size: 8rem;
     text-align:center;
-    margin-left: 40vw;
-    margin-right: 40vw;
-    /* padding: 1rem; */
+    margin-left: 44vw;
+    margin-right: 10vw;
+    padding: 3rem;
     color:black;
     border-style: solid;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
-.Colon:hover{
+.period:hover{
     color:white;
     background-color: black;
     border-radius: 90%;
     cursor: pointer;
     transition: 0.25s border-radius;
 }
+
 
