@@ -87,3 +87,10 @@ h1{
   #star-five:hover {
       filter:blur(12px);
   }
+
+  #customCursor{
+    background-color:black;
+    width:40px;
+    height:40px:
+    position:absolute;
+}

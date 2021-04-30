@@ -125,3 +125,10 @@ img{
     margin-right: 10vw;
     margin-top:75vh;
 }
+
+#customCursor{
+    background-color:black;
+    width:40px;
+    height:40px:
+    position:absolute;
+}

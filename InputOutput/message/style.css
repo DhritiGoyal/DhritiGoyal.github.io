@@ -1,0 +1,60 @@
+body{
+    background-color:#A5FFB9;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* 
+div{
+    width:80px;
+    padding: 80px;
+    text-align: center;
+    border: 1px solid black;
+    margin:16px;
+    font-size: 3rem;
+} */
+
+/*Pianter div*/
+div{
+    border:1px solid rgba(0,0,0.2);
+}
+
+div:hover{
+    background-color:#77FFF5 ;
+}
+
+/* #scrollDiv{
+    text-align: center;
+    height:40vh;
+    width:60vw;
+    left:50%;
+    display:inline-block;
+    
+} */
+
+#clickDiv{
+    height:3%;
+    width:25%;
+    padding:16px;
+}
+
+.pixel:hover{
+    background-color:yellow;
+}
+
+
+.grid-container{
+    margin:auto;
+    display:grid;
+    width:800px;
+    height:800px;
+    grid-template-columns:repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
