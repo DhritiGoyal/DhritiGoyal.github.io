@@ -1,0 +1,25 @@
+.background{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  background-color:rgb(240, 244, 0);
+  clip-path:url(#clip);
+}
+
+
+body{
+  height: 20000px;
+  background-color: rgb(10, 0, 107);
+}
+
+/* .chameleon{
+  clip-path:url(#clip);
+  background-color: black;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+} */

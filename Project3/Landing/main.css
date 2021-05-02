@@ -275,11 +275,62 @@ h2{
     color:white; 
 }
 
-h4,a{
-    font-family: 'Sprat Condensed';
-    src: url('Sprat-CondensedLight.woff2') format('woff2'),;
+h3{
+    font-family: 'Ortica';
+    src: url('Ortica-Light.woff2') format('woff2'),;
+    font-weight:normal;
+    font-size:1.9rem;
+    margin: 15px;
+    color:white;
+}
+
+h4{
+    font-family: 'Ortica';
+    src: url('Ortica-Light.woff2') format('woff2'),;
     font-weight:normal;
     font-size:1.5rem;
     margin: 15px;
+    color:#e7cdfc;
+}
+
+a{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding:1.3%;
+    font-family: 'Ortica';
+    src: url('Ortica-Light.woff2') format('woff2'),;
+    font-weight:normal;
+    font-size:1.5rem;
+    /* margin: 15px; */
+    position: relative;
+    top:90%;
     color:white;
+}
+
+@media only screen and (max-width: 320px){
+    h3{
+        font-size:1.2rem;
+    }
+    h4{
+        font-size:1rem;
+    }
+    a{
+        font-size:0.7rem;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    h1{
+        font-size:6rem;
+    }
+
+    h3{
+        font-size:1.9rem;
+    }
+    h4{
+        font-size:2rem;
+    }
+    a{
+        font-size:1rem;
+    }
 }

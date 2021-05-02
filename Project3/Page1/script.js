@@ -115,11 +115,11 @@ function showPhotos() {
 
   var cont = document.querySelector(".container");
   cont.addEventListener("mousemove", function(){
-      if (Math.round(Math.random() * 5) == 1){
+      if (Math.round(Math.random() * 12) == 1){
         photoContainers.forEach(function (photo) {
           photo.style.zIndex = 0;
         })
-        photoContainers[Math.floor(photoContainers.length * Math.random())].style.zIndex = 1;
+        photoContainers[Math.floor(photoContainers.length * Math.random())].style.zIndex = 5;
         
       }
 
