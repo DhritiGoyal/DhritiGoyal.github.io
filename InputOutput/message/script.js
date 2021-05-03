@@ -117,7 +117,7 @@ inputElement.addEventListener("keydown", function(event){
 //adding songs 
 
 let chords = {
-    'abc': '',
+    'abc': 'mini-exported 2.mp3',
 
 };
 
