@@ -24,8 +24,9 @@ h2{
 
   li{
       text-align: left;
-      font-size: 2rem;
-      margin-left:25vw;
+      font-size: 1.6rem;
+      margin-left:30vw;
+      margin-right:30vw;
       font-family:sans-serif;
       color: rgb(0, 0, 71);
   }
