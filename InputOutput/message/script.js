@@ -81,18 +81,18 @@ for (let i = 0;  i < 30 * 30; i ++){
 
 //key pressing down
 
-// let result = document.querySelector("#result");
+let result = document.querySelector("#result");
 
-// document.addEventListener("keydown", function(event){
-//     console.log(event);
-//     console.log("what did we just press:")
-//     console.log(event.key)
-//     if (event.key == "Enter"){
-//         document.body.classList.toggle("blue");
-//     }
+document.addEventListener("keydown", function(event){
+    console.log(event);
+    console.log("what did we just press:")
+    console.log(event.key)
+    if (event.key == "Enter"){
+        document.body.classList.toggle("blue");
+    }
 
-//     result.innerText = "You just pressed: " + event.key;
-// })
+    result.innerText = "You just pressed: " + event.key;
+})
 
 
 
@@ -112,3 +112,33 @@ inputElement.addEventListener("keydown", function(event){
         inputElement.value = "";
     }
 });
+
+
+//adding songs 
+
+let chords = {
+    'abc': '',
+
+};
+
+let input = document.querySelector('input');
+let audioChords = [];
+
+function playChord(event) {
+
+    if (event.key == 'Enter') {
+        let ourText = input.value;
+        ourText.forEach((key) => {
+            let chord = Object.keys(chords).find(k => k.includes(key));
+            if (chord) {
+                let audio = document.createElement('audio');
+                audio.src = chords[chord];
+                audio.play();
+                audioChords.push(audio);
+            }
+        });
+    }
+}
+
+input.addEventListener('keyup', playChord);
+
