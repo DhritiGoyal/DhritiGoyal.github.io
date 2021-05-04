@@ -123,7 +123,7 @@ inputElement.addEventListener("keydown", function(event){
     if (event.key == "Enter"){
         //show the text on the page
         console.log(inputElement.value);
-        result.innerText = "You message: " + inputElement.value;
+        result.innerText = "Your message: " + inputElement.value;
         
         inputElement.value = "";
     }
