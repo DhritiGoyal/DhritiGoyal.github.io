@@ -310,7 +310,6 @@ let chords = {
     'chord': 'fmaj6'
     },
 
-
 };
 
 let output = document.querySelector('#result');

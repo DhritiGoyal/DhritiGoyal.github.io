@@ -1,26 +1,57 @@
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('InriaSans-Bold.woff2') format('woff2'),
+        url('InriaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),
+        url('InriaSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
 body{
     background-color:#A5FFB9;
 }
 
 h1{
+    font-family: 'Inria Sans';
+    src: url('InriaSans-Bold.woff2') format('woff2'),;
     font-size: 4rem;
     text-align: center;
     color:#3700ff;
 }
 
 h3{
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     font-size: 1.5rem;
     text-align: center;
     color:#3700ff;
 }
 
 #result{
+
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     font-size: 1.5rem;
     text-align: center;
     color:#3700ff;
 }
 
 #input{
+
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     /* width:90%; */
     /* height:30vh; */
     padding: 2px 20px;
@@ -34,18 +65,26 @@ h3{
 }
 
 #input[type=text]{
+
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     height:5vh;
     width:43%;
     transition: all 0.7s ease-in-out;
 }
 
 #input[type=text]:focus{
+
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     width:50%;
     height:40vh;
     margin: 80px 22%;
 }
 
 ::placeholder{
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     color:#b005ff;
     font-size: 1.3rem;
 }

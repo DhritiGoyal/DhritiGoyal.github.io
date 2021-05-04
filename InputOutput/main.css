@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Inria Sans';
+  src: url('InriaSans-Bold.woff2') format('woff2'),
+      url('InriaSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inria Sans';
+  src: url('InriaSans-BoldItalic.woff2') format('woff2'),
+      url('InriaSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
 body{
     background-color:#FFCCFA;
 }
@@ -8,9 +26,14 @@ body{
 }
 
 h1{
-    font-size: 2.2rem;
+    font-family: 'Inria Sans';
+    src: url('InriaSans-Bold.woff2') format('woff2'),;
+    font-size: 3.3rem;
     z-index: 1;
-    margin-top:25%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+    color:rgb(0, 4, 255);
 }
 
 .green-circle{
@@ -87,10 +110,3 @@ h1{
   #star-five:hover {
       filter:blur(12px);
   }
-
-  #customCursor{
-    background-color:black;
-    width:40px;
-    height:40px:
-    position:absolute;
-}
