@@ -115,26 +115,33 @@
 
 //input text USE THIS FOR YOUR DDDDDDDDDD
 
-let inputElement = document.querySelector("#input");
+// let inputElement = document.querySelector("#input");
 
-let result = document.querySelector("#result");
+// let result = document.querySelector("#result");
 
-inputElement.addEventListener("keydown", function(event){
-    if (event.key == "Enter"){
-        //show the text on the page
-        console.log(inputElement.value);
-        result.innerText = "Your message: " + inputElement.value;
+// inputElement.addEventListener("keydown", function(event){
+//     if (event.key == "Enter"){
+//         //show the text on the page
+//         console.log(inputElement.value);
+//         result.innerText = "Your message: " + inputElement.value;
         
-        inputElement.value = "";
-    }
-});
+//         inputElement.value = "";
+//     }
+// });
 
 
 //adding songs 
 
 let chords = {
-    'Aa': 'amaj1.mp3',
-    'Bb': 'amaj2.mp3',
+    'Aa': {
+        'audio': 'audio/amaj/amaj1.mp3',
+        'chord': 'amaj1'
+    },
+    'Bb': {
+        'audio': 'audio/amaj/amaj2.mp3',
+        'chord': 'amaj2'
+    },
+
     'Cc': 'amaj3.mp3',
     'Dd': 'amaj4.mp3',
     'Ee': 'amaj5.mp3',
@@ -189,12 +196,13 @@ function playChord(event) {
             let chord = Object.keys(chords).find(k => k.includes(key));
             if (chord) {
                 let audio = document.createElement('audio');
-                audio.src = chords[chord];
+                audio.src = chords[chord].audio; 
                 audio.play();
                 audioChords.push(audio);
 
                 let img = document.createElement('img');
-                img.scr = `${chord}.png`; // Aa.img
+                img.scr = `images/${chords[chord].chord}.png`; // Aa.img
+                console.log(`images/${chords[chord].chord}.png`);
                 result.append(img);
             }
         });
