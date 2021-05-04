@@ -35,6 +35,23 @@
 
 
 @font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserratsemibold_italic';
+    src: url('fonts/webfontkit-20210228-161148/montserrat-semibolditalic-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20210228-161148/montserrat-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'montserratthin';
     src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),
          url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff') format('woff');
@@ -49,7 +66,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 
 h2 {
     font-family: 'montserratmedium';
@@ -78,12 +94,12 @@ p {
 }
 
 
-.Exclaim {
+.Colon{
     font-family: 'montserratthin';
     src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
     font-size: 10rem;
     text-align:center;
-    margin-left: 44vw;
+    margin-left: 42vw;
     margin-right: 10vw;
     padding: 3rem;
     color:black;
@@ -93,13 +109,14 @@ p {
     text-decoration: none;
 }
 
-.Exclaim:hover{
+.Colon:hover{
     color:white;
     background-color: black;
     border-radius: 90%;
     cursor: pointer;
     transition: 0.25s border-radius;
 }
+
 
 img{
     width:20%;
