@@ -142,42 +142,174 @@ let chords = {
         'chord': 'amaj2'
     },
 
-    'Cc': 'amaj3.mp3',
-    'Dd': 'amaj4.mp3',
-    'Ee': 'amaj5.mp3',
-    'Ff': 'amin1.mp3',
-    'Gg': 'amin2.mp3',
-    'Hh': 'amin3.mp3',
-    'Ii': 'amin4.mp3',
-    'Jj': 'amin5.mp3',
-    'Kk': 'amin6.mp3',
-    'Ll': 'amin7.mp3',
-    'Mm': 'cmaj1.mp3',
-    'Nn': 'cmaj2.mp3',
-    'Oo': 'cmaj3.mp3',
-    'Pp': 'cmaj4.mp3',
-    'Qq': 'cmaj5.mp3',
-    'Rr': 'cmaj6.mp3',
-    'Ss': 'cmaj7.mp3',
-    'Tt': 'dmaj1.mp3',
-    'Uu': 'dmaj2.mp3',
-    'Vv': 'dmaj3.mp3',
-    'Ww': 'dmaj4.mp3',
-    'Xx': 'dmaj5.mp3',
-    'Yy': 'emaj1.mp3',
-    'Zz': 'emaj2.mp3',
+    'Cc': {
+        'audio': 'audio/amaj/amaj3.mp3',
+        'chord': 'amaj3'
+    },
 
-    '148': 'emaj3.mp3',
-    '259': 'emaj4.mp3',
-    '360': 'emaj5.mp3',
+    'Dd': {
+        'audio': 'audio/amaj/amaj4.mp3',
+        'chord': 'amaj4'
+        },
+
+    'Ee': {
+        'audio': 'audio/amaj/amaj5.mp3',
+        'chord': 'amaj5'
+        },
+
+    'Ff':  {
+        'audio': 'audio/amin/amin1.mp3',
+        'chord': 'amin1'
+        },
+
+    'Gg': {
+        'audio': 'audio/amin/amin2.mp3',
+        'chord': 'amin2'
+        },
+
+    'Hh': {
+        'audio': 'audio/amin/amin3.mp3',
+        'chord': 'amin3'
+        },
+
+    'Ii': {
+        'audio': 'audio/amin/amin4.mp3',
+        'chord': 'amin4'
+        },
+
+    'Jj': {
+        'audio': 'audio/amin/amin5.mp3',
+        'chord': 'amin5'
+        },
+
+    'Kk':{
+        'audio': 'audio/amin/amin6.mp3',
+        'chord': 'amin6'
+        },
+
+    'Ll':{
+        'audio': 'audio/amin/amin7.mp3',
+        'chord': 'amin7'
+        },
+
+    'Mm':{
+        'audio': 'audio/cmaj/cmaj1.mp3',
+        'chord': 'cmaj1'
+        },
+
+    'Nn':{
+        'audio': 'audio/cmaj/cmaj2.mp3',
+        'chord': 'cmaj2'
+        },
+
+    'Oo':{
+        'audio': 'audio/cmaj/cmaj3.mp3',
+        'chord': 'cmaj3'
+        },
+
+    'Pp':{
+        'audio': 'audio/cmaj/cmaj4.mp3',
+        'chord': 'cmaj4'
+        },
+
+    'Qq':{
+        'audio': 'audio/cmaj/cmaj5.mp3',
+        'chord': 'cmaj5'
+        },
+
+    'Rr':{
+        'audio': 'audio/cmaj/cmaj6.mp3',
+        'chord': 'cmaj6'
+        },
+
+    'Ss':{
+        'audio': 'audio/cmaj/cmaj7.mp3',
+        'chord': 'cmaj7'
+        },
+
+    'Tt':{
+        'audio': 'audio/dmaj/dmaj1.mp3',
+        'chord': 'dmaj1'
+        },
+
+    'Uu':{
+        'audio': 'audio/dmaj/dmaj2.mp3',
+        'chord': 'dmaj2'
+        },
+
+    'Vv':{
+        'audio': 'audio/dmaj/dmaj3.mp3',
+        'chord': 'dmaj3'
+        },
+
+    'Ww':{
+        'audio': 'audio/dmaj/dmaj4.mp3',
+        'chord': 'dmaj4'
+        },
+
+    'Xx':{
+        'audio': 'audio/dmaj/dmaj5.mp3',
+        'chord': 'dmaj5'
+        },
+
+    'Yy':{
+        'audio': 'audio/emaj/emaj1.mp3',
+        'chord': 'emaj1'
+        },
+
+    'Zz':{
+        'audio': 'audio/emaj/emaj2.mp3',
+        'chord': 'emaj2'
+        },
 
 
-    ',./': 'fmaj1.mp3',
-    ';:"': 'fmaj2.mp3',
-    '-()+': 'fmaj3.mp3',
-    '*&^#!': 'fmaj4.mp3',
-    '~–|': 'fmaj5.mp3',
-    '=@': 'fmaj6.mp3',
+    '148':{
+        'audio': 'audio/emaj/emaj3.mp3',
+        'chord': 'emaj3'
+        },
+
+    '259':{
+        'audio': 'audio/emaj/emaj4.mp3',
+        'chord': 'emaj4'
+        },
+
+    '360':{
+        'audio': 'audio/emaj/emaj5.mp3',
+        'chord': 'emaj5'
+        },
+
+
+
+    ',./':{
+        'audio': 'audio/fmaj/fmaj1.mp3',
+        'chord': 'fmaj1'
+        },
+
+    ';:"':{
+        'audio': 'audio/fmaj/fmaj2.mp3',
+        'chord': 'fmaj2'
+        },
+
+    '-()+':{
+        'audio': 'audio/fmaj/fmaj3.mp3',
+        'chord': 'fmaj3'
+        },
+
+    '*&^#!':{
+        'audio': 'audio/fmaj/fmaj4.mp3',
+        'chord': 'fmaj4'
+        },
+
+    '~–|':{
+        'audio': 'audio/fmaj/fmaj5.mp3',
+    'chord': 'fmaj5'
+    },
+
+    '=@':{
+        'audio': 'audio/fmaj/fmaj6.mp3',
+    'chord': 'fmaj6'
+    },
+
 
 };
 
