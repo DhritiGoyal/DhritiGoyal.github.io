@@ -5,12 +5,60 @@ body{
 h1{
     font-size: 4rem;
     text-align: center;
+    color:#3700ff;
 }
 
 h3{
     font-size: 1.5rem;
     text-align: center;
+    color:#3700ff;
 }
+
+#result{
+    font-size: 1.5rem;
+    text-align: center;
+    color:#3700ff;
+}
+
+#input{
+    /* width:90%; */
+    /* height:30vh; */
+    padding: 2px 20px;
+    margin: 80px 27%;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius:16px;
+    border:5px solid #77FFF5;
+    background-color: #fdeefc;
+    color:#b005ff;
+}
+
+#input[type=text]{
+    height:5vh;
+    width:43%;
+    transition: all 0.7s ease-in-out;
+}
+
+#input[type=text]:focus{
+    width:50%;
+    height:40vh;
+    margin: 80px 22%;
+}
+
+::placeholder{
+    color:#b005ff;
+    font-size: 1.3rem;
+}
+
+
+/* 
+form{
+   position:relative;
+   left:40px;
+   font-size: 1rem;
+} */
+
+
 /* 
 div{
     width:80px;
@@ -22,13 +70,19 @@ div{
 } */
 
 /*Pianter div*/
-div{
+
+
+
+/* div{
     border:1px solid rgba(0,0,0.2);
 }
 
 div:hover{
     background-color:#77FFF5 ;
-}
+} */
+
+
+
 
 /* #scrollDiv{
     text-align: center;
@@ -39,7 +93,11 @@ div:hover{
     
 } */
 
-#clickDiv{
+
+
+
+
+/* #clickDiv{
     height:3%;
     width:25%;
     padding:16px;
@@ -57,4 +115,4 @@ div:hover{
     height:800px;
     grid-template-columns:repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-}
+} */
