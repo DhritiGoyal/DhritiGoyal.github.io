@@ -342,3 +342,6 @@ function playChord(event) {
 
 input.addEventListener('keyup', playChord);
 
+function deleteItems() {
+    input.clear();
+}
