@@ -81,13 +81,16 @@
         margin-top:39vh;
         margin-left:18vw;
         margin-right: auto;
-        padding: 1rem;
+        padding: 0rem;
         color:black;
         overflow: auto;
         white-space: nowrap;
         display:block;
     }
 
+    h2{
+        display:none;
+    }
 
     h5 {
         font-family: 'montserratmedium';
@@ -120,9 +123,9 @@
         text-align:center;
         color:black;
         border-style: solid;
-        justify-content: center;
-        align-items: center;
-        padding:3rem;
+        margin-top:-13px;
+        margin-bottom: 40px;
+        padding:4px;
         /* margin-left: 70%; */
         text-decoration: none;
     }
@@ -138,31 +141,36 @@
 @media only screen and (max-width: 812px) {
     body{
         background-color:black;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
     h1 {
+        display:none;
+    }
+    h2{
         font-family: 'montserratmedium';
         src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
         font-size:2rem;
-        margin-top:4vh;
-        margin-left:18vw;
-        margin-right: 20vw;
+        text-align:center;
+        margin-top:15vh;
+        margin-left:-20%;
+        margin-right: auto;
+        padding: 0rem;
         color:white;
         /* overflow: auto; */
-        /* white-space: wrap; */
-        /* display:block; */
+        /* white-space: nowrap; */
+        display:block;
     }
 
 
     h5 {
         font-family: 'montserratmedium';
         src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
-        font-size: 2rem;
-        margin-top: 8vh;
+        font-size: 1.7rem;
+        margin-top: 23vh;
         color:white;
-        margin-top:35vh;
-        margin-left:74%;
+        /* margin-top:35vh; */
+        margin-left:62%;
         margin-right: auto;
         display:block;
         transform: rotate(0deg);
@@ -171,15 +179,14 @@
     .Quest {
         font-family: 'montserratthin';
         src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
-        font-size: 1rem;
+        font-size: 5rem;
         text-align:center;
         color:rgb(255, 255, 255);
         border-style: solid 0.5px;
         justify-content: center;
         align-items: center;
-        padding:5px;
+        padding:4px;
         text-decoration: none;
-        padding:-50rem;
     }
     
     .Quest:hover {
@@ -192,7 +199,7 @@
 
     .square1 {
         height:100vh;
-        width:18vw;
+        width:8vw;
         background-color:white;
         position:absolute;
         top:0;
