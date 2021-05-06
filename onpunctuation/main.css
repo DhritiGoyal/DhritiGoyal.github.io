@@ -67,133 +67,18 @@
     font-style: normal;
 }
 
-body{
-    overflow-y: hidden; 
-}
-
-
-h1 {
-    font-family: 'montserratmedium';
-    src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
-    font-size:33rem;
-    text-align:center;
-    margin-top:39vh;
-    margin-left:18vw;
-    margin-right: auto;
-    padding: 1rem;
-    color:black;
-    overflow: auto;
-    white-space: nowrap;
-    display:block;
-}
-
-
-h5 {
-    font-family: 'montserratmedium';
-    src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
-    font-size:7rem;
-    margin-top: -8vh;
-    color:white;
-    position:fixed;
-    left:-200px;
-    top:50vh;
-    z-index:100;
-    transform: rotate(-90deg);
-    white-space: nowrap;
-    display:inline;
-}
-
-.square1 {
-    height:100vh;
-    width:18vw;
-    background-color:black;
-    position:absolute;
-    top:0;
-    left:0%;
-} 
-
- .Quest {
-    font-family: 'montserratthin';
-    src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
-    font-size: 23rem;
-    text-align:center;
-    color:black;
-    border-style: solid;
-    justify-content: center;
-    align-items: center;
-    padding:3rem;
-    /* margin-left: 70%; */
-    text-decoration: none;
-}
-
-.Quest:hover{
-    color:white;
-    background-color:black;
-    border-radius: 90%;
-    cursor: pointer;
-    transition: 0.25s border-radius;
-} 
-
-@media only screen and (min-width: 366px) {
-    h1 {
-        font-family: 'montserratmedium';
-        src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
-        font-size:13rem;
-        text-align:center;
-        margin-top:70vh;
-        margin-left:18vw;
-        margin-right: auto;
-        padding: 1rem;
-        color:black;
-        overflow: auto;
-        white-space: nowrap;
-        display:block;
+@media only screen and (min-width: 375px) {
+    body{
+        overflow-y: hidden; 
     }
-    h5 {
-        font-family: 'montserratmedium';
-        src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
-        font-size:5rem;
-        margin-top: -8vh;
-        color:white;
-        position:fixed;
-        left:-200px;
-        top:64vh;
-        z-index:100;
-        transform: rotate(-90deg);
-        white-space: nowrap;
-        display:inline;
-    }
-    
-    .Quest {
-        font-family: 'montserratthin';
-        src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
-        font-size: 13rem;
-        text-align:center;
-        color:black;
-        border-style: solid;
-        justify-content: center;
-        align-items: center;
-        padding-top:-2rem;
-        text-decoration: none;
-    }
-    
-    .Quest:hover {
-        color:white;
-        background-color:black;
-        border-radius: 80%;
-        cursor: pointer;
-        transition: 0.25s border-radius;
-    }
-}
 
 
-@media only screen and (min-width:735px) {
     h1 {
         font-family: 'montserratmedium';
         src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
         font-size:33rem;
         text-align:center;
-        margin-top:33vh;
+        margin-top:39vh;
         margin-left:18vw;
         margin-right: auto;
         padding: 1rem;
@@ -202,6 +87,8 @@ h5 {
         white-space: nowrap;
         display:block;
     }
+
+
     h5 {
         font-family: 'montserratmedium';
         src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
@@ -216,6 +103,16 @@ h5 {
         white-space: nowrap;
         display:inline;
     }
+
+    .square1 {
+        height:100vh;
+        width:18vw;
+        background-color:black;
+        position:absolute;
+        top:0;
+        left:0%;
+    } 
+
     .Quest {
         font-family: 'montserratthin';
         src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
@@ -229,14 +126,78 @@ h5 {
         /* margin-left: 70%; */
         text-decoration: none;
     }
-    
+
     .Quest:hover{
         color:white;
         background-color:black;
         border-radius: 90%;
         cursor: pointer;
         transition: 0.25s border-radius;
+    } 
+}
+@media only screen and (max-width: 812px) {
+    body{
+        background-color:black;
+        overflow-y: hidden;
+    }
+
+    h1 {
+        font-family: 'montserratmedium';
+        src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
+        font-size:2rem;
+        margin-top:4vh;
+        margin-left:18vw;
+        margin-right: 20vw;
+        color:white;
+        /* overflow: auto; */
+        /* white-space: wrap; */
+        /* display:block; */
     }
 
 
+    h5 {
+        font-family: 'montserratmedium';
+        src: url('fonts/webfontkit-20210228-161148/montserrat-regular-webfont.woff2') format('woff2'),;
+        font-size: 2rem;
+        margin-top: 8vh;
+        color:white;
+        margin-top:35vh;
+        margin-left:74%;
+        margin-right: auto;
+        display:block;
+        transform: rotate(0deg);
+    }
+    
+    .Quest {
+        font-family: 'montserratthin';
+        src: url('fonts/webfontkit-20210228-161148/montserrat-thin-webfont.woff2') format('woff2'),;
+        font-size: 1rem;
+        text-align:center;
+        color:rgb(255, 255, 255);
+        border-style: solid 0.5px;
+        justify-content: center;
+        align-items: center;
+        padding:5px;
+        text-decoration: none;
+        padding:-50rem;
+    }
+    
+    .Quest:hover {
+        color:black;
+        background-color:white;
+        border-radius: 80%;
+        cursor: pointer;
+        transition: 0.25s border-radius;
+    }
+
+    .square1 {
+        height:100vh;
+        width:18vw;
+        background-color:white;
+        position:absolute;
+        top:0;
+        left:0%;
+    } 
 }
+
+

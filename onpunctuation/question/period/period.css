@@ -125,3 +125,22 @@ img{
     margin-right: 10vw;
     margin-top:75vh;
 }
+
+@media only screen and (max-width: 812px) {
+    h2 {
+        font-size:2rem;
+   }
+   p {
+    font-size:1.1rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top:32vw;
+   }
+   .Colon {
+    font-size:5rem;
+    margin-left: 37vw;
+    margin-right: 10vw;
+    margin-top: -30vh;
+    padding: 1rem;
+   }
+}
