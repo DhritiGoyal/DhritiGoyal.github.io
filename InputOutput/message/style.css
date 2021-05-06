@@ -53,7 +53,7 @@ h3{
     /* width:90%; */
     /* height:30vh; */
     padding: 2px 20px;
-    margin: 80px 27%;
+    margin: 80px 22%;
     font-size: 1.5rem;
     text-align: center;
     border-radius:16px;
@@ -67,7 +67,7 @@ h3{
     font-family: 'Inria Sans';
     src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     height:5vh;
-    width:43%;
+    width:50%;
     transition: all 0.7s ease-in-out;
 }
 
@@ -87,69 +87,46 @@ h3{
     font-size: 1.3rem;
 }
 
-
-/* 
-form{
-   position:relative;
-   left:40px;
-   font-size: 1rem;
-} */
-
-
-/* 
-div{
-    width:80px;
-    padding: 80px;
+button{
+    font-family: 'Inria Sans';
+    src: url('InriaSans-BoldItalic.woff2') format('woff2'),;
     text-align: center;
-    border: 1px solid black;
-    margin:16px;
-    font-size: 3rem;
-} */
-
-/*Pianter div*/
-
-
-
-/* div{
-    border:1px solid rgba(0,0,0.2);
+    border-radius:16px;
+    color:#b005ff;
+    font-size: 1.3rem;
+    margin: 66px 40%;
+    width:20%;
 }
 
-div:hover{
-    background-color:#77FFF5 ;
-} */
-
-
-
-
-/* #scrollDiv{
-    text-align: center;
-    height:40vh;
-    width:60vw;
-    left:50%;
-    display:inline-block;
-    
-} */
-
-
-
-
-
-/* #clickDiv{
-    height:3%;
-    width:25%;
-    padding:16px;
+span{
+    color:blueviolet;
 }
 
-.pixel:hover{
-    background-color:yellow;
+@media only screen and (max-width: 812px){
+    h1{
+        font-size: 3rem;
+    }
+    #input{
+        font-size: 1rem;
+        padding: 2px 20px;
+        margin: 80px 7%;
+    }
+    ::placeholder{
+        font-size: 1.6rem;
+    }
+    button{
+        font-size: 2rem;
+        margin: 66px 30%;
+        width:40%;
+    }
+    #input[type=text]{
+        width:73%;
+    }
+
+    #input[type=text]:focus{
+        width:73%;
+        height:20vh;
+        margin: 7% 7%;
+        font-size: 1.6rem;
+    }
 }
-
-
-.grid-container{
-    margin:auto;
-    display:grid;
-    width:800px;
-    height:800px;
-    grid-template-columns:repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-} */

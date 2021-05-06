@@ -183,23 +183,46 @@ let chords = {
 };
 
 let output = document.querySelector('#result');
-
 let input = document.querySelector('#input');
 let audioChords = [];
+let audio = document.createElement('audio');
+let letters;
+
+function playAudio(src){
+    let promise = new Promise((resolve, reject) => {
+        audio.src = src;
+        audio.play();
+        audio.addEventListener('ended', () => {
+          resolve();
+        }, {once: true});
+      });
+      return promise;
+}
+
+function cueAudio() {
+    let letter = letters.shift();
+    let chord = Object.keys(chords).find(k => k.includes(letter));
+    if (chord) {
+      playAudio(chords[chord].audio).then(cueAudio);
+    } else if (letters.length){
+      cueAudio();
+    }
+  }
+
 
 function playChord(event) {
 
     if (event.key == 'Enter') {
-       
         let ourText = input.value;
+        letters = Array.from(ourText);
         
-        Array.from(ourText).forEach((key) => {
+        letters.forEach((key) => {
             let chord = Object.keys(chords).find(k => k.includes(key));
             if (chord) {
-                let audio = document.createElement('audio');
-                audio.src = chords[chord].audio; 
-                audio.play();
-                audioChords.push(audio);
+                // let audio = document.createElement('audio');
+                // audio.src = chords[chord].audio; 
+                // audio.play();
+                // audioChords.push(audio);
 
                 let img = document.createElement('img');
                 img.scr = `images/${chords[chord].chord}.png`; // Aa.img
@@ -207,11 +230,13 @@ function playChord(event) {
                 result.append(img);
             }
         });
+        //start playing audio files
+        cueAudio();
     }
 }
 
 input.addEventListener('keyup', playChord);
 
 function inputremove() {
-    input.clear();
+    input.value = ''
 }
