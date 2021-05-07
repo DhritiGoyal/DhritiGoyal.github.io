@@ -266,6 +266,10 @@ h1{
     margin: 0;
 }
 
+h1:hover{
+    color:#ad41ff ;
+    text-shadow: 10px 10px 15px #be73f7;
+}
 
 .photo-container {
     /* padding:1rem; */
