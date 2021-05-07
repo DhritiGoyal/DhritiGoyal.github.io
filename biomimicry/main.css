@@ -46,3 +46,15 @@ body{
 .cham{
   width:200px;
 }
+
+h1{
+  color: greenyellow;
+  font-size: 7rem;
+  position:fixed;
+  padding:40px;
+  z-index:1;
+}
+
+span{
+  color:rgb(101, 168, 0);
+}
