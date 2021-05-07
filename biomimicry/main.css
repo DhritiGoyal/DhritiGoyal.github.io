@@ -1,13 +1,28 @@
 .background{
+  /* position:fixed;
+  top:0;
+  left:0;
+  width:100vw; */
+  /* height:100vh; */
+  /* padding-bottom: 98%; */
+  background-color:rgb(240, 244, 0);
+  clip-path:url(#clip);
+  object-fit: cover;
+}
+
+#wrapper{
   position:fixed;
   top:0;
   left:0;
   width:100vw;
   height:100vh;
-  background-color:rgb(240, 244, 0);
-  clip-path:url(#clip);
+  
 }
 
+.size{
+  width: 100%;
+  padding-bottom: 98%;
+}
 
 body{
   height: 20000px;

@@ -238,5 +238,6 @@ function playChord(event) {
 input.addEventListener('keyup', playChord);
 
 function inputremove() {
+    letters = [];
     input.value = ''
 }
